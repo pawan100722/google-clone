@@ -1,15 +1,15 @@
 .search-main-container{
-  height: 80dvh;
+  height: 35dvh;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   row-gap: 10px;
 }
 
 .search-container{
-  width: 65%;
+  width: 38%;
   border: 2px solid black;
   display: flex;
   justify-content: space-between;
@@ -20,7 +20,7 @@
 
 .search-box{
   width: 90%;
-  padding: 10px;
+  padding: 8px;
   font-size: 1.5rem;
   border: none;
   outline: none;
@@ -36,6 +36,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding: 0 15px;
 }
 
 .search-main-text{

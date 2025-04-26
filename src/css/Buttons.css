@@ -1,0 +1,12 @@
+.buttons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  column-gap: 20px;
+}
+
+.search-button, .lucky-button{
+  padding: 7px 25px;
+  cursor: pointer;
+}
