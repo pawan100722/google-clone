@@ -4,9 +4,14 @@
   align-items: center;
   padding: 20px;
   column-gap: 20px;
+  background-color: var(--mainColor);
 }
 
 .search-button, .lucky-button{
-  padding: 7px 25px;
+  padding: 10px 25px;
   cursor: pointer;
+  background-color: var(--secondColor);
+  color: white;
+  border: none;
+  outline: none;
 }

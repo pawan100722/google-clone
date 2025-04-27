@@ -6,7 +6,7 @@ import cameraIcon from "../icons/CameraIcon.svg";
 export const SearchBox = () => {
   return (
     <div className="search-main-container">
-      <h1 className="search-main-text">Google</h1>
+      <p className="search-main-text">Google</p>
       <div className="search-container">
         <img className="search-icon" src={searchIcon} alt="" />
         <input type="text" className="search-box" />

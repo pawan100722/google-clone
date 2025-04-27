@@ -1,6 +1,8 @@
 .header-container{
   display: flex;
   padding: 10px;
+  background-color: var(--mainColor);
+  color:white;
 }
 
 .header-text{

@@ -6,19 +6,30 @@
   justify-content: flex-end;
   align-items: center;
   row-gap: 10px;
+  color: white;
+  background-color: var(--mainColor);
+}
+
+.search-main-text{
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  font-size: 5.2rem;
 }
 
 .search-container{
-  width: 38%;
+  width: 45%;
   border: 2px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 25px;
   padding: 0 20px;
+  background-color: var(--secondColor);
 }
 
 .search-box{
+  background-color: var(--secondColor);
+  color: white;
   width: 90%;
   padding: 8px;
   font-size: 1.5rem;
@@ -28,6 +39,7 @@
 
 .search-icon{
   width:1.8rem;
+  color: white;
 }
 
 .icons-container{
@@ -37,8 +49,4 @@
   align-items: center;
   gap: 10px;
   padding: 0 15px;
-}
-
-.search-main-text{
-  font-size: 6rem;
 }

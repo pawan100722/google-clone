@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  --mainColor:#101218;
+  --secondColor: #222b4a;
 }
 
 .main-component-container{
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
   width: 100dvw;
   height: 100dvh;
+  background-color: var(--mainColor);
 }
