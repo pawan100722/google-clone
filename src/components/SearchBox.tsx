@@ -4,6 +4,7 @@ import micIcon from "../icons/MicIcon.svg";
 import searchIcon from "../icons/SearchIcon.svg";
 import cameraIcon from "../icons/CameraIcon.svg";
 import { Buttons } from "./Buttons";
+import { Languages } from "./Languages";
 
 export const SearchBox = () => {
   const [searchText, setSearchText] = useState<string>("");
@@ -46,6 +47,7 @@ export const SearchBox = () => {
         </div>
       </div>
       <Buttons handleSearchClickProp={handleSearchClick}/>
+      <Languages/>
     </div>
   );
 };
