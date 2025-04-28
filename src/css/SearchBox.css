@@ -8,7 +8,7 @@
   align-items: center;
   row-gap: 10px;
   color: white;
-  background-color: var(--mainColor);
+  background-color: #101218;
 }
 
 .search-main-text{
@@ -25,11 +25,11 @@
   align-items: center;
   border-radius: 25px;
   padding: 0 20px;
-  background-color: var(--secondColor);
+  background-color: #222b4a;
 }
 
 .search-box{
-  background-color: var(--secondColor);
+  background-color: #222b4a;
   color: white;
   width: 80%;
   padding: 12px;

@@ -4,13 +4,13 @@
   align-items: center;
   padding: 20px;
   column-gap: 20px;
-  background-color: var(--mainColor);
+  background-color: #101218;
 }
 
 .search-button, .lucky-button{
   padding: 10px 25px;
   cursor: pointer;
-  background-color: var(--secondColor);
+  background-color: #222b4a;
   color: white;
   border: none;
   outline: none;

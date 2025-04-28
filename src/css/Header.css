@@ -1,7 +1,7 @@
 .header-container{
   display: flex;
   padding: 10px;
-  background-color: var(--mainColor);
+  background-color: #101218;
   color:white;
 }
 
