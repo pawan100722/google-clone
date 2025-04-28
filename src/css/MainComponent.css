@@ -1,10 +1,12 @@
+:root{
+  --mainColor:#101218;
+  --secondColor: #222b4a;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  --mainColor:#101218;
-  --secondColor: #222b4a;
 }
 
 .main-component-container{
