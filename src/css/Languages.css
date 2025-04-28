@@ -9,8 +9,12 @@
 
 .languages-container p{
   font-size: 0.9rem;
-  color: blue;
+  color: #1313c3;
   cursor: pointer;
+}
+
+.languages-container p:hover{
+  text-decoration: underline;
 }
 
 .languages-container p:first-child{

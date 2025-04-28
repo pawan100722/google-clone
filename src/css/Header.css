@@ -26,10 +26,16 @@
 
 .header-icon{
   width: 1.5rem;
+  cursor: pointer;
+}
+
+.header-icon:hover,.user-image:hover{
+  opacity: 0.6;
 }
 
 .user-image{
   width: 2rem;
   border: 1px solid black;
   border-radius: 50%;
+  cursor: pointer;
 }
